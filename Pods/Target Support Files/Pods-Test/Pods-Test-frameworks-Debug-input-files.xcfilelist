@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Airship/AirshipKit.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
