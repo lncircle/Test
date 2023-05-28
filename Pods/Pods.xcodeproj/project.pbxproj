@@ -3857,6 +3857,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3892,6 +3893,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37B74D24583A052CE00C8857225E667C /* Airship.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipCoreResources-Airship-Info.plist";
@@ -3909,6 +3911,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FE58213C15C8DAF47D41DF1BA710088 /* Toast-Swift.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3943,6 +3946,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B46D9729EF7B9811136BE6B196E330F0 /* Airship.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipExtendedActionsResources-Airship-Info.plist";
@@ -4025,6 +4029,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37B74D24583A052CE00C8857225E667C /* Airship.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipAutomationResources-Airship-Info.plist";
@@ -4042,6 +4047,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37B74D24583A052CE00C8857225E667C /* Airship.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipMessageCenterResources-Airship-Info.plist";
@@ -4122,6 +4128,7 @@
 			baseConfigurationReference = B46D9729EF7B9811136BE6B196E330F0 /* Airship.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4157,6 +4164,7 @@
 			baseConfigurationReference = 37B74D24583A052CE00C8857225E667C /* Airship.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4192,6 +4200,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37B74D24583A052CE00C8857225E667C /* Airship.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipExtendedActionsResources-Airship-Info.plist";
@@ -4209,6 +4218,7 @@
 			baseConfigurationReference = 77C1850B70B93EB235EA99DA27195695 /* Kingfisher.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4243,6 +4253,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B46D9729EF7B9811136BE6B196E330F0 /* Airship.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipCoreResources-Airship-Info.plist";
@@ -4261,6 +4272,7 @@
 			baseConfigurationReference = 6E566F12CBDA65C79FFFCE937E96CF04 /* Kingfisher.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4296,6 +4308,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B46D9729EF7B9811136BE6B196E330F0 /* Airship.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipMessageCenterResources-Airship-Info.plist";
@@ -4313,6 +4326,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B46D9729EF7B9811136BE6B196E330F0 /* Airship.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Airship";
 				IBSC_MODULE = AirshipKit;
 				INFOPLIST_FILE = "Target Support Files/Airship/ResourceBundle-AirshipAutomationResources-Airship-Info.plist";
@@ -4330,6 +4344,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEEF47E8410E0DBD459A96AC7C32827F /* Toast-Swift.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4367,6 +4382,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
